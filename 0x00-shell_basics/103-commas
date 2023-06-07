@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p | LC_COLLATE=C sort -df | awk '{ printf "%s%s", $0, (NR==NF ? "\n" : ",") }'
+ls -p | LC_COLLATE=C sort -df | awk
